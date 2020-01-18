@@ -194,10 +194,6 @@ class MetaFlowDemo(FlowSpec):
 
     @step
     def end(self):
-        """
-        Print out the playlist and bonus movie.
-
-        """
         price = self.house_price
         print('Estimated price of the house is ${} '.format(price))
 
