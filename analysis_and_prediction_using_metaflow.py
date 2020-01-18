@@ -64,7 +64,7 @@ class MetaFlowDemo(FlowSpec):
             plt.figure(figsize=(8,5))
             plt.scatter(data.price,data.sqft_living)
             plt.title("Price vs Square Feet")
-            plt.savefig(plot_path+'/step_a.png')
+            plt.savefig(plot_path+'/price_vs_sq_ft.png')
             print('Plotting Graph 1')
             plt.pause(5)
         except:
